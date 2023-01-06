@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  /* border: 1px solid red; */
+}
+
+/* --------------------common styles-------------------- */
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+.btn-primary {
+  font-weight: 600;
+  font-size: 20px;
+  color: #005fac;
+  padding: 20px 25px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* --------------------banner styles-------------------- */
+.banner {
+  background-image: url("../images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.banner .container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 100%;
+}
+.banner-info {
+  color: white;
+  text-align: right;
+  width: 50%;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  margin-bottom: 24px;
+}
+.banner-description {
+  line-height: 26px;
+  margin-bottom: 32px;
+  font-size: 24px;
+}
+
+/* --------------------my-failure styles---------------- */
+.my-failure {
+  margin-top: 130px;
+}
+.my-failure .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+}
+.my-failure-info {
+  width: ;
+}
+.my-failure-title,
+.my-plan-title, .mindset-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 24px;
+  color: #151414;
+}
+.my-failure-description {
+  line-height: 26px;
+  margin-bottom: 16px;
+  font-size: 24px;
+  color: #444343;
+}
+.my-failure ul {
+  list-style-type: none;
+}
+.my-failure ul li {
+  margin-bottom: 8px;
+  color: #444343;
+}
+.fa-check {
+  color: #16d887;
+  font-size: 20px;
+}
+
+/* --------------------my-plan styles------------------- */
+.my-plan {
+  margin: 130px 0;
+  text-align: center;
+}
+.plan-items {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin: 24px 0 16px 0;
+}
+.description{
+    font-weight: 500;
+    font-size: 30px;
+    color: #737272;
+}
+.mindset{
+    margin-top: 136px;
+    background-image: url('../images/watch.png'), url('../images/gradient1.png');
+    background-blend-mode: overlay;
+    background-repeat: repeat;
+    background-size: cover;
+    border-radius: 8px;
+    padding: 60px 65px;
+    text-align: left;
+}
+.mindset-title{
+    color: white;
+    width: 52%;
+}
+
