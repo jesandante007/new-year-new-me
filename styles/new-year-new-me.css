@@ -66,9 +66,6 @@
   align-items: center;
   gap: 90px;
 }
-.my-failure-info {
-  width: ;
-}
 .my-failure-description {
   line-height: 26px;
   margin-bottom: 16px;
@@ -95,6 +92,7 @@
 .plan-items {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 .title {
   font-weight: 700;
