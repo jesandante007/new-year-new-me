@@ -18,6 +18,14 @@
   border-radius: 5px;
   border: none;
 }
+.my-failure-title,
+.my-plan-title, .mindset-title, .links h2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 24px;
+  color: #151414;
+}
 
 /* --------------------banner styles-------------------- */
 .banner {
@@ -60,14 +68,6 @@
 }
 .my-failure-info {
   width: ;
-}
-.my-failure-title,
-.my-plan-title, .mindset-title {
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 70px;
-  margin-bottom: 24px;
-  color: #151414;
 }
 .my-failure-description {
   line-height: 26px;
@@ -122,3 +122,46 @@
     width: 52%;
 }
 
+/* --------------------footer styles-------------------- */
+footer{
+    background-color: #151414;
+    color: white;
+    padding: 130px 0;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    gap: 330px;
+}
+.links h2{
+    color: white;
+}
+.links p{
+    line-height: 28px;
+}
+.email{
+    margin: 24px 0;
+}
+footer img{
+    margin: 32px 17px 0 0;
+}
+header{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 31px;
+}
+input[type="email"]{
+    width: 330px;
+    padding: 20px 25px;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+input[type="email"]:focus{
+    outline-color: #005fac;
+}
+input[type="submit"]{
+    color: white;
+    background-color: #005fac;
+}
