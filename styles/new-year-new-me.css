@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: "Work Sans", sans-serif;
-  /* border: 1px solid red; */
 }
 
 /* --------------------common styles-------------------- */
@@ -17,9 +16,13 @@
   padding: 20px 25px;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 .my-failure-title,
-.my-plan-title, .mindset-title, .links h2 {
+.my-plan-title,
+.mindset-title,
+.links h2,
+.build-your-career-title {
   font-weight: 700;
   font-size: 60px;
   line-height: 70px;
@@ -100,66 +103,99 @@
   color: #151414;
   margin: 24px 0 16px 0;
 }
-.description{
-    font-weight: 500;
-    font-size: 30px;
-    color: #737272;
+.description {
+  font-weight: 500;
+  font-size: 30px;
+  color: #737272;
 }
-.mindset{
-    margin-top: 136px;
-    background-image: url('../images/watch.png'), url('../images/gradient1.png');
-    background-blend-mode: overlay;
-    background-repeat: repeat;
-    background-size: cover;
-    border-radius: 8px;
-    padding: 60px 65px;
-    text-align: left;
+.mindset {
+  margin-top: 136px;
+  background-image: url("../images/watch.png"), url("../images/gradient1.png");
+  background-blend-mode: overlay;
+  background-repeat: repeat;
+  background-size: cover;
+  border-radius: 8px;
+  padding: 60px 65px;
+  text-align: left;
 }
-.mindset-title{
-    color: white;
-    width: 52%;
+.mindset-title {
+  color: white;
+  width: 52%;
+}
+
+/* --------------------build-your-career styles---------------- */
+.build-your-career {
+  text-align: center;
+}
+.feature-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: left;
+  margin-top: 80px;
+}
+.feature-items .item {
+  width: 250px;
+  height: 350px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 10px rgba(68, 68, 68, 0.5);
+  padding: 30px 20px;
+}
+.item .title {
+  font-size: 30px;
+  margin: 20px 0;
+}
+.item .description {
+  font-size: 20px;
+}
+.item img {
+  height: 60px;
+  width: 60px;
 }
 
 /* --------------------footer styles-------------------- */
-footer{
-    background-color: #151414;
-    color: white;
-    padding: 130px 0;
+footer {
+  background-color: #151414;
+  color: white;
+  padding: 130px 0;
+  margin-top: 130px;
 }
-.contact{
-    display: flex;
-    justify-content: space-between;
-    gap: 330px;
+.contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 330px;
 }
-.links h2{
-    color: white;
+.links h2 {
+  color: white;
 }
-.links p{
-    line-height: 28px;
+.links p {
+  line-height: 28px;
 }
-.email{
-    margin: 24px 0;
+.email {
+  margin: 24px 0;
 }
-footer img{
-    margin: 32px 17px 0 0;
+footer img {
+  margin: 32px 17px 0 0;
 }
-header{
-    font-weight: 600;
-    font-size: 30px;
-    margin-bottom: 31px;
+header {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 31px;
 }
-input[type="email"]{
-    width: 330px;
-    padding: 20px 25px;
-    border: 1px solid white;
-    border-radius: 8px;
-    margin-bottom: 16px;
-    font-size: 20px;
+input[type="email"] {
+  width: 330px;
+  padding: 20px 25px;
+  border: 1px solid white;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 20px;
 }
-input[type="email"]:focus{
-    outline-color: #005fac;
+input[type="email"]:focus {
+  outline-color: #005fac;
 }
-input[type="submit"]{
-    color: white;
-    background-color: #005fac;
+input[type="submit"] {
+  color: white;
+  background-color: #005fac;
 }
